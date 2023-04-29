@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\components"
   ],
-  "SelectedNode": "\\src\\sample_data",
   "PreviewInSolutionExplorer": false
 }

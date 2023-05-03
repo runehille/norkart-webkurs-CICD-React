@@ -1,0 +1,102 @@
+[
+    {
+        "name": "watercolor",
+        "content": {
+            "version": 8,
+            "sources": {
+                "raster-tiles": {
+                    "type": "raster",
+                    "tiles": [
+                        "https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg"
+                    ],
+                    "tileSize": 256,
+                    "attribution": "Formatting error when changing from single quotes to double quotes"
+                }
+            },
+            "layers": [
+                {
+                    "id": "simple-tiles",
+                    "type": "raster",
+                    "source": "raster-tiles",
+                    "minzoom": 0,
+                    "maxzoom": 22
+                }
+            ]
+        }
+    },
+    {
+        "name": "openstreetmap",
+        "content": {
+            "version": 8,
+            "sources": {
+                "raster-tiles": {
+                    "type": "raster",
+                    "tiles": [
+                        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    ],
+                    "tileSize": 256,
+                    "attribution": "Formatting error when changing from single quotes to double quotes"
+                }
+            },
+            "layers": [
+                {
+                    "id": "simple-tiles",
+                    "type": "raster",
+                    "source": "raster-tiles",
+                    "minzoom": 0,
+                    "maxzoom": 22
+                }
+            ]
+        }
+    },
+    {
+        "name": "toner",
+        "content": {
+            "version": 8,
+            "sources": {
+                "raster-tiles": {
+                    "type": "raster",
+                    "tiles": [
+                        "https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png"
+                    ],
+                    "tileSize": 256,
+                    "attribution": "Formatting error when changing from single quotes to double quotes"
+                }
+            },
+            "layers": [
+                {
+                    "id": "simple-tiles",
+                    "type": "raster",
+                    "source": "raster-tiles",
+                    "minzoom": 0,
+                    "maxzoom": 22
+                }
+            ]
+        }
+    },
+    {
+        "name": "terrain",
+        "content": {
+            "version": 8,
+            "sources": {
+                "raster-tiles": {
+                    "type": "raster",
+                    "tiles": [
+                        "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg"
+                    ],
+                    "tileSize": 256,
+                    "attribution": "Formatting error when changing from single quotes to double quotes"
+                }
+            },
+            "layers": [
+                {
+                    "id": "simple-tiles",
+                    "type": "raster",
+                    "source": "raster-tiles",
+                    "minzoom": 0,
+                    "maxzoom": 22
+                }
+            ]
+        }
+    }
+]
